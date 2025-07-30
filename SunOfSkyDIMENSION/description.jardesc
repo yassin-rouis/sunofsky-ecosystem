@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jardesc>
+    <jar path="D:/MINECRAFT/SERVER/1.18.2 - SOS_Core/plugins/SunOfSkyDimension.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/SunOfSkyDIMENSION/description.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="true" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="true" manifestLocation="" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
+        <javaElement handleIdentifier="=SunOfSkyDIMENSION/src"/>
+        <file path="/SunOfSkyDIMENSION/description.jardesc"/>
+        <file path="/SunOfSkyDIMENSION/.classpath"/>
+        <file path="/SunOfSkyDIMENSION/plugin.yml"/>
+        <file path="/SunOfSkyDIMENSION/.project"/>
+    </selectedElements>
+</jardesc>

@@ -1,0 +1,14 @@
+name: SunOfSkyITEMS
+main: net.joueuranonyme.sunofsky.items.Main
+version: "1.0"
+api-version: 1.18
+
+depend: ["HolographicDisplays"]
+softdepend: []
+
+commands:
+  sosgive:
+    usage: "hehe"
+
+permissions: {}
+  # Permissions

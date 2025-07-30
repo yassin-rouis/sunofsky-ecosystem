@@ -1,0 +1,11 @@
+name: SunOfSkyMINES
+main: net.joueuranonyme.sunofsky.mines.Main
+version: "1.0"
+api-version: 1.18
+
+softdepend: [PlaceholderAPI]
+
+commands: {}
+
+permissions: {}
+  # Permissions

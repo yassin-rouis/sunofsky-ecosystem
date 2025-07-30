@@ -1,0 +1,91 @@
+name: SunOfSkyCORE
+main: net.joueuranonyme.sunofsky.core.Main
+version: "1.0"
+api-version: 1.18
+softdepend:
+  - "PlaceholderAPI"
+
+depend:
+  - "Essentials"
+
+commands:
+  bvn:
+    description: Souhaitez bienvenue aux nouveaux joueurs !
+    usage: "§cUsage: /bvn"
+  #fly:
+  #  description: Active/Désactive le fly
+  #  usage: "§cUsage: /fly name"
+  #  permission: "soscore.fly"
+  #  aliases: 
+  #    - "setfly"
+  flytimer:
+    description: Autorise à un joueur de fly un certain temps
+    usage: "§cUsage: /flytimer name time"
+    permission: "soscore.flytimer"
+    permission-message: "§cVous n'avez pas les permissions requises pour lancer cette commande"
+  vote:
+    description: Votez en cliquant sur le lien !
+    usage: "§cUsage: /vote"
+  site:
+    description: Visitez le site en cliquant sur le lien !
+    usage: "§cUsage: /site"
+  furnace:
+    description: Cuit instantanément les items dans votre main, ou dans l'entièreté de votre inventaire.
+    usage: "§cUsage: /furnace [all]"
+  peche:
+    description: Pour lancer l'event de pêche !
+    usage: "§cUsage: /peche <run|stop> ..."
+    permission: "soscore.peche"
+    permission-message: "§cVous n'avez pas les permissions requises pour lancer cette commande"
+  pub:
+    description: Lancez votre pub dans l'intégralité du serveur !
+    usage: "§cUsage: /pub <clear|Votre pub...> ..."
+  journalier:
+    description: Récupérez une récompense journalière !
+    usage: "§cUsage: /journalier"
+    aliases: 
+      - "daily"
+      - "bonus"
+  bbar:
+    description: Active/Désactive la bossbar publicitaire
+    usage: "§cUsage: /bossbar <on|enable | off|disable>"
+  rename:
+    usage: "§cUsage: /rename <name|lore> ..."
+    permission: soscore.rename
+    permission-message: "§cVous n'avez pas les permissions requises pour lancer cette commande"
+
+permissions:
+  soscore.pub.reload:
+    description: Permission de recharger la configuration des pubs.
+  soscore.pub.use:
+    description: Permission d'utiliser la "/pub".
+  soscore.pub.unlimited_use:
+    description: Permission d'utiliser la "/pub" sans prise en compte des délais.
+  soscore.pub.cancel_others:
+    description: Permission d'annuler les délais d'attente des joueurs.
+  
+  soscore.peche:
+    description: Permission de lancer/arrêter l'event via "/peche".
+  soscore.peche.reload:
+    description: Permission de recharger la configuration de l'event.
+  
+  soscore.bvn.reload:
+    description: Permission de recharger la configuration du bvn.
+  
+  soscore.furnace.reload:
+    description: Permission de recharger la configuration du bvn.
+  
+  soscore.site.reload:
+    description: Permission de recharger la configuration du site.
+  
+  soscore.vote.reload:
+    description: Permission de recharger la configuration du vote.
+  
+  soscore.fly.reload:
+    description: Permission de recharger la configuration du fly.
+  soscore.fly.toggle.self:
+    description: Changer sa propre possibilité de fly.
+  soscore.fly.toggle.other:
+    description: Changer la possibilité de fly des autres.
+  soscore.fly.timer:
+    description: Permission d'ajouter/modifier/supprimer du temps de fly.

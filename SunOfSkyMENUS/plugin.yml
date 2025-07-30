@@ -1,0 +1,13 @@
+name: SunOfSkyMENUS
+main: net.joueuranonyme.sunofsky.menus.Main
+version: "1.0"
+api-version: 1.18
+
+depend:
+  - "PlayerPoints"
+
+commands:
+  sosshop:
+    usage: "§cUsage : /sosshop <shop> [<player>]"
+
+permissions: {}
